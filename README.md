@@ -1,9 +1,6 @@
 # Twitter-sentiment-analysis-project-using-Deep-learning
 Using Deep Learning Recurrent Neural Network Predicting the Sentiment of the Tweets of users
 
-
-# 🐦 Twitter Tweets Sentiment Analysis using Deep Learning
-
 A production-ready Deep Learning pipeline utilizing Recurrent Neural Networks (RNN) to accurately classify the sentiment of Twitter tweets into three strategic categories: **Negative**, **Neutral**, or **Positive**. This project includes a complete model development pipeline and an interactive deployment interface powered by Streamlit.
 
 ---
