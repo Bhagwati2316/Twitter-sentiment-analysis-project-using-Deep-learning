@@ -43,7 +43,8 @@ The project dependencies are strictly managed within the isolated tracking envir
 *   **Deep Learning Framework:** TensorFlow 2.x / Keras
 *   **Data Wrangling:** Pandas, NumPy, Scikit-Learn
 *   **Application Deployment:** Streamlit
-*   **Serialization Pipeline:** Pickle
+*   **Serialization Pipeline:** Pickle, .h5 
+*   **Deployement:** Streamlit cummunity cloud
 
 To install the required libraries, run:
 ```bash
