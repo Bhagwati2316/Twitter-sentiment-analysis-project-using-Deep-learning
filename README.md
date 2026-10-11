@@ -71,6 +71,7 @@ pip install -r requirements.txt
 The project features a lightweight interface built with **Streamlit** for real-time inference. When a user inputs a tweet, the text undergoes sequence padding to match the model's expected shape before computing target outputs.
 
 ### Running the App Locally:
+
 Ensure your trained configuration parameters (`model.h5` and `Tokenizer.pkl`) are placed in the root directory, then execute the following command in your terminal:
 
 ```bash
@@ -78,6 +79,7 @@ streamlit run streamlit_app.py
 ```
 
 ### Inference Flow:
+
 1. Input custom text strings into the interface text area.
 2. The pipeline converts text strings to integer token strings using the saved token mappings.
 3. Pads sequences uniformly to a `maxlen=99` signature using standard `post` padding configurations.
@@ -86,6 +88,7 @@ streamlit run streamlit_app.py
 ---
 
 ## 📈 Future Engineering Enhancements
+
 To break past the 68.4% validation ceiling and mitigate the current overfitting bottleneck, upcoming iterations will implement the following features:
 *   **Gated Recurrent Architectures:** Upgrading the memory cell block from `SimpleRNN` to an **LSTM** or **GRU** block to better maintain historical gradients over the 99-timestep window.
 *   **Regularization Tuning:** Injecting an explicit `Dropout(0.3)` or `SpatialDropout1D` wrapper after the embedding vector transformations.
